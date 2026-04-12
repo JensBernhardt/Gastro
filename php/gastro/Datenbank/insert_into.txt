@@ -1,0 +1,27 @@
+
+/*
+-----------------------------------------------------------------------------------------
+
+-- Einfügen von Benutzern mit einzigartigen 'kürzel'
+INSERT INTO benutzer (vorname, nachname, kuerzel, email, passwort, role)
+
+
+VALUES 
+    ('Ma',  'Mustermann', 'BERJ', 'max@example.com', 'sicherePasswo12', 'User'),
+    ('John',  'Doe', 'BERK', 'john@example.com', 'sichesswort13', 'User');
+
+
+-----------------------------------------------------------------------------------------
+
+-- Einfügen von Admin-Benutzern
+INSERT INTO benutzer (vorname, nachname, kuerzel, email, passwort, role)
+
+
+VALUES
+    ('Max', 'der', 'Bju', 'ma@example.com', 'adminPawort23', 'Admin'),
+    ('Admin',  'User', 'Ahj', 'admin@example.com', 'admnPaswort2', 'Admin');
+
+
+-----------------------------------------------------------------------------------------
+
+*/

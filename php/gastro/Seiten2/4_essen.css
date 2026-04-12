@@ -1,0 +1,368 @@
+
+
+.body5 {
+    background-image: url('../Bilder/kochhintergrund.jpg'); 
+    background-size: 100% auto; 
+    
+    background-position: top;  
+    background-attachment: scroll;
+    background-color: #333333;  
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+
+
+.zurück4 {
+    position: relative;
+    width: 70px;
+    height: 20px;
+    background-color: #292929;
+    background-image: url('../Bilder/tafel.jpg'); 
+  background-size: cover; 
+  background-position: center;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px; 
+    transform: translateX(3px); 
+    transition: transform 0.3s ease;
+  }
+
+  .zurück4 a {
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    text-decoration: none; 
+    color: inherit; 
+      
+    display: flex;           
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+  .zurück4:hover {
+    transform: scale(1.1) translate(10px, 10px) translateZ(20px); 
+    background-color: #5b6404;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+  }
+
+ 
+   
+  legend {
+    font-family: 'Arial', sans-serif;  
+    font-size: 6px; 
+  }
+
+  a {
+    font-family: 'Arial', sans-serif;  
+    font-size: 10px; 
+    color: white;  
+    text-decoration: none;  
+    transition: color 0.3s ease;  
+  }
+  
+ 
+
+
+
+.text-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 10px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center; 
+}
+
+
+
+.hover-button1 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/wiener-schnitzel.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 43px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button1:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+
+.hover-button2 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/Curry.webp'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button2:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button3 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/braten.webp'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button3:hover {
+  transform: scale(1.1) translateZ(20px);
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8); 
+}
+
+.hover-button4 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/spag.webp'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button4:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button5 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/lasagne.webp'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button5:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button6 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/kart.jpeg'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button6:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button7 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/fisch.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button7:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button8 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/ha.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button8:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button9 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/cu.webp'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button9:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button10 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/meeresfruechte.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+  top: -33px;
+}
+
+
+.hover-button10:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button11 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/Haeh.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 30px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+  top: -33px;
+}
+
+
+.hover-button11:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+.hover-button12 {
+  position: relative;
+  width: 25%;
+  height: 100px; 
+  background-image: url('../Bilder/pizza.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 20px 10px 30px 5px;
+  margin-left: 20px;  
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+
+.hover-button12:hover {
+  transform: scale(1.1) translateZ(20px); 
+  background-color: #e6e6e6; 
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}

@@ -1,0 +1,212 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.body3 {
+  margin: 0;
+  padding: 0 0 20px;
+  background-color: #333;
+  background-image: url('../Bilder/kochhintergrund.jpg');
+  background-size: 100% auto;
+  background-position: top;
+  background-attachment: scroll;
+  min-height: 100vh;
+}
+
+.zurück2 {
+  position: relative;
+  width: 70px;
+  height: 20px;
+  background-color: #292929;
+  background-image: url('../Bilder/tafel.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  transform: translateX(3px);
+  transition: transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.zurück2 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zurück2:hover {
+  transform: scale(1.1) translate(10px, 10px) translateZ(20px);
+  background-color: #5b6404;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.8);
+}
+
+legend, a {
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+legend {
+  font-size: 6px;
+}
+
+a {
+  font-size: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+  border: none;
+}
+
+
+input[type="textfield"] {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.tfelder {
+  position: absolute;
+  width: 2770px;
+  height: 940px;
+  margin-top: 3vh;
+}
+
+
+
+
+
+h2 {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  margin-top: 30px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Weißer Schatten */
+}
+
+.date1 {
+  font-family: 'Shadows Into Light', cursive;
+  width: 200px;
+  padding: 2px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #474444;
+  outline: none;
+  transition: all 0.3s ease;
+  color: white;
+  margin-top: 5vh;
+}
+
+
+th, td {
+  padding: 10px 20px;
+  color: white;
+  border: none; /* Entfernt die Ränder */
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #000;
+  
+}
+
+
+.alles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap; /* Ermöglicht Umbruch bei Platzmangel */
+  gap: 2vw;
+  width: 95vw;
+  height: 80vh;
+  background-image: url('../Bilder/hintholz.png');
+  margin-left: 1vw;
+  margin-right: 5vw;
+  border-radius: 2vw;
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s ease;
+  margin-top: 5vh;
+  overflow: auto; /* Zeigt Scrollleiste bei Überfüllung */
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+textarea {
+  
+  background-image: url('../Bilder/keidetafel.png');
+  background-size: contain;
+  background-position: center center;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  text-shadow: 1px 1px 2px #000, 0 0 25px #fff, 0 0 5px #fff;
+  font-size: 10px;
+  border: none;
+  width: 16vw;
+  height: 33vh;
+  min-width: 160px;
+  min-height: 200px;
+  padding: 1vw;
+  margin-top: 4vh;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  max-width: calc(100% - 4vw); /* Verhindert Überlauf */
+}
+
+textarea:hover {
+  transform: scale(1.4);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  border: none;
+}
+
+.löschen, .abgabe {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  border: 2px solid black;
+  margin-right: 20px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.löschen:hover, .abgabe:hover {
+  background-color: #ffffff00;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.arrow-left {
+  margin-top: -10px;
+  margin-left: 50vw;
+}
+
+.arrow.right {
+  margin-top: -10px;
+}
